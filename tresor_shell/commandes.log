@@ -1,0 +1,16 @@
+[INFO] [2023-03-24 11:49:05,710] Secret 14476 : essai de l'indice 3 avec l'indication 12  → résultat 84566
+[INFO] [2023-03-24 11:56:45,469] Secret 14476 : essai de l'indice 4 avec l'indication parana  → résultat 92224
+[INFO] [2023-03-24 11:56:57,881] Secret 14476 : essai de l'indice 4 avec l'indication 706172616e610a  → résultat 47194
+[INFO] [2023-03-24 12:08:58,094] Secret 14476 : essai de l'indice 5 avec l'indication -n → résultat 42067
+[INFO] [2023-03-31 10:37:25,244] Secret 14476 : essai de l'indice 6 avec l'indication 308133  → résultat 74382
+[INFO] [2023-03-31 10:42:42,760] Secret 14476 : essai de l'indice 7 avec l'indication X11  → résultat 66238
+[INFO] [2023-03-31 10:44:08,606] Secret 14476 : essai de l'indice 7 avec l'indication X11:.  → résultat 73000
+[INFO] [2023-03-31 10:44:40,760] Secret 14476 : essai de l'indice 7 avec l'indication .  → résultat 86376
+[INFO] [2023-03-31 10:50:28,619] Secret 14476 : essai de l'indice 7 avec l'indication .  → résultat 86376
+[INFO] [2023-03-31 10:54:05,424] Secret 14476 : essai de l'indice 8 avec l'indication lues blanches cendre nom → résultat 34173
+[INFO] [2023-03-31 11:03:17,248] Secret 14476 : essai de l'indice 9 avec l'indication impossible  → résultat 81031
+[INFO] [2023-03-31 11:08:19,675] Secret 14476 : essai de l'indice 10 avec l'indication 102401  → résultat 95722
+[INFO] [2023-03-31 11:16:34,538] Secret 14476 : essai de l'indice 11 avec l'indication tombstones  → résultat 39720
+[INFO] [2023-03-31 11:29:31,408] Secret 14476 : essai de l'indice 12 avec l'indication -k -5nr → résultat 41859
+[INFO] [2023-03-31 11:30:19,961] Secret 14476 : essai de l'indice 12 avec l'indication -k 5nr → résultat 65104
+[INFO] [2023-03-31 16:06:50,237] Secret 14476 : essai de l'indice 13 avec l'indication 29903  → résultat 27939
