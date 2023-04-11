@@ -13,12 +13,12 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Concaténation
-        run: cat tresor_shell/indices_trouvés/indice* > indices.md
+        run: cat tresor_shell/indices-sauvés/indice* > indices.md
 
       - name: Créer l'archive
         uses: montudor/action-zip@v1
         with:
-          args: zip -r indices.zip tresor_shell/indices_trouvés
+          args: zip -r indices.zip tresor_shell/indices-sauvés
 
       - name: Ajout de l'archive et du fichier indices.md
         run: |
