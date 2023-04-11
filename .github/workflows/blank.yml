@@ -1,0 +1,38 @@
+name: Deux actions demandées (concatenation+archive)
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  concatenation-archive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Dépot
+        uses: actions/checkout@v2
+
+      - name: Concaténation
+        run: cat tresor_shell/indices_trouvés/indice* > indices.md
+
+      - name: Créer l'archive
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -r indices.zip tresor_shell/indices_trouvés
+
+      - name: Ajout de l'archive et du fichier indices.md
+        run: |
+          git add indices.zip
+          git add indices.md
+      - name: setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          
+      - name: effectue le commit        
+        run: git commit -m "Action - Ajout de l'archive et du fichier indices.md"
+
+      - name: push vers github
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
