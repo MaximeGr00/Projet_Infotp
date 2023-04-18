@@ -42,7 +42,7 @@ Le numéro de l'indice est 86376
 #Indice 8:
 cd tresor_shell/images  
 tail baleine.jpg  
-![baleine](../tresor_shell/images/baleine.jpg)  
+![baleine](tresor_shell/images/baleine.jpg)  
 
 ./indice_suivant.py 8 lues blanches cendre nom  
 Le numéro de l'indice est 34173  
