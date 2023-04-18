@@ -14,11 +14,6 @@ RUN wget https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-1-am
         tar -zxvf linux-pandoc_2_7_2.tar.gz && \
         mv pandoc-crossref /usr/local/bin
 
-RUN kanji-config-updmap-sys ipaex
+CMD for f in $(find `pwd` -name "*.md");do pandoc "$f" -s -o "${f%.md}.pdf";done
 
-COPY scripts/ /usr/local/bin/
-COPY crossref_config.yaml /config/crossref_config.yaml
-COPY listings-setup.tex /config/listings-setup.tex
-
-VOLUME /workdir
 WORKDIR /workdir
